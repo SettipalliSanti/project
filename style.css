@@ -1,0 +1,105 @@
+header{
+    display: grid;
+    grid-template-columns: 15% 85%;
+    background-color: black;
+
+}
+header img{
+    width: 100%;
+}
+nav ul{
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+}
+header ul,{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+ul li{
+    list-style-type:  none;
+}
+footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    color:white;
+    background-color: black;
+}
+a{
+    color :white;
+}
+.bannerBlock img{
+    border: 0px soild white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 100%;
+}
+.block1{
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	margin: 5px;
+}
+img{
+	width: 100px;
+	height: 100px;
+}
+.one, .two, .three{
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+
+	grid-template-rows: 50% 50%;
+
+}
+.one img, .two img, .three img{
+	border-radius: 50%;
+	width: 140px;
+	height: 140px;
+}
+h1{
+	font-size: x-large;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+p{
+	font-size: large;
+	margin-top:1px ;
+}
+.mainblock{
+	display: flex;
+	border: 1px solid white;
+	height: 100%;
+	margin: 10px 5px 10px;
+}
+.content{
+	display: flex;
+	flex-direction: column;
+	border: 0px solid;
+	margin-left: 100px;
+	
+	
+}
+
+.mainblock img{
+	width: 100%;
+	height: 100%;
+	margin: 5px;
+	border-radius: 5%;
+	
+	
+}
+.mainblock i {
+	
+	font-size:xx-large;
+	padding-top: 20px;
+	
+	
+}
+.mainblock p{
+	margin-left: 30px ;
+	font-size:x-large;
+	color: #181515;
+}
+.mainblock span{
+	font-size:xx-large;
+	font-weight: bold;
+}
